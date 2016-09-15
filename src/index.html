@@ -1,53 +1,37 @@
 <html>
 <head>
-  <style>
-    html {
-      box-sizing: border-box;
-    }
-    *, *:before, *:after {
-      box-sizing: inherit;
-    }
-    body{
-      font-family: Verdana, Geneva, sans-serif;
-      box-sizing: border-box;
-      padding: 0.5rem;
-    }
-    .flex{
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .container{
-      width: 64px;
-      float: left;
-      margin: 0.5rem 1rem;
-    }
-    .icon{
-      width: 24px;
-      height: 24px;
-      margin: 0 auto;
-      display: block;
-      fill: red;
-    }
-    .label{
-      display: block;
-      font-size: 0.825rem;
-      padding-top: 0.25rem;
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
   <div style="height: 0; width: 0; position: absolute; visibility: hidden">
     <!-- inject:svg --><!-- endinject -->
   </div>
+  <header>
+    <div class="inner-header">
+      <h1>Icons</h1>
+      <p>
+        Created in affinity designer with the size 24x24 px viewbox with intended 2px inner padding. Optimized and created svg sprite and minified svgs with gulp.
+      </p>
+      <a href="#" class="btn btn-icn btn-primary"><svg class="icn">
+        <use xlink:href="#github"></use>
+      </svg>Download</a>
 
-  <h1>Icons</h1>
+      <a href="https://twitter.com/share?text=Decent-ish icons you can use for free" target="_blank" class="btn btn-icn btn-text"><svg class="icn">
+        <use xlink:href="#twitter"></use>
+      </svg>Tweet This</a>
+    </div>
+  </header>
+
+  <div class="content">
+  <h2>Info</h2>
   <p>
-    Icons created in affinity designer with the size 24x24 px viewbox with intended 2px inner padding. Optimized and created svg sprite with gulp.
+    Icons available for download and the source affinity designer file at the github repo.
   </p>
   <h2>Essentials</h2>
-
   <div class="flex">
 
   <div class="container">
@@ -337,6 +321,139 @@
   <span class="label">Zoom out</span>
   </div>
 
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#settings"></use>
+  </svg>
+  <span class="label">Settings</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#home"></use>
+  </svg>
+  <span class="label">Home</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#alarm"></use>
+  </svg>
+  <span class="label">Alarm</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#globe"></use>
+  </svg>
+  <span class="label">Globe</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#download"></use>
+  </svg>
+  <span class="label">Download</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#upload"></use>
+  </svg>
+  <span class="label">Upload</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#phone"></use>
+  </svg>
+  <span class="label">Phone</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#tablet"></use>
+  </svg>
+  <span class="label">Tablet</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#computer"></use>
+  </svg>
+  <span class="label">Computer</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#login"></use>
+  </svg>
+  <span class="label">Log in</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#logout"></use>
+  </svg>
+  <span class="label">Log out</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#filter"></use>
+  </svg>
+  <span class="label">Filter</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#checkbox"></use>
+  </svg>
+  <span class="label">Checkbox</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#checkbox_ticked"></use>
+  </svg>
+  <span class="label">Checkbox ticked</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#more"></use>
+  </svg>
+  <span class="label">More</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#reply"></use>
+  </svg>
+  <span class="label">Reply</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#reply_all"></use>
+  </svg>
+  <span class="label">Reply all</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#forward"></use>
+  </svg>
+  <span class="label">Forward</span>
+  </div>
+
+  <div class="container">
+  <svg class="icon">
+    <use xlink:href="#print"></use>
+  </svg>
+  <span class="label">Print</span>
+  </div>
+
   </div>
 
   <h2>Time</h2>
@@ -417,6 +534,13 @@
       <use xlink:href="#boat"></use>
     </svg>
     <span class="label">Boat</span>
+    </div>
+
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#map"></use>
+    </svg>
+    <span class="label">Map</span>
     </div>
 
   </div>
@@ -523,6 +647,20 @@
     <span class="label">Headphones</span>
     </div>
 
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#record_audio"></use>
+    </svg>
+    <span class="label">Record audio</span>
+    </div>
+
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#music"></use>
+    </svg>
+    <span class="label">Music</span>
+    </div>
+
   </div>
 
   <h2>Image</h2>
@@ -540,6 +678,13 @@
       <use xlink:href="#camera"></use>
     </svg>
     <span class="label">Camera</span>
+    </div>
+
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#videocamera"></use>
+    </svg>
+    <span class="label">Videocamera</span>
     </div>
 
   </div>
@@ -575,8 +720,74 @@
     <span class="label">Folder</span>
     </div>
 
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#list"></use>
+    </svg>
+    <span class="label">List</span>
+    </div>
+
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#read"></use>
+    </svg>
+    <span class="label">Read</span>
+    </div>
+
+  </div>
+
+  <h2>Logos</h2>
+  <div class="flex">
+
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#github"></use>
+    </svg>
+    <span class="label">Github</span>
+    </div>
+
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#twitter"></use>
+    </svg>
+    <span class="label">Twitter</span>
+    </div>
+
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#facebook"></use>
+    </svg>
+    <span class="label">Facebook</span>
+    </div>
+
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#android"></use>
+    </svg>
+    <span class="label">Android</span>
+    </div>
+
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#apple"></use>
+    </svg>
+    <span class="label">Apple</span>
+    </div>
+
+    <div class="container">
+    <svg class="icon">
+      <use xlink:href="#dropbox"></use>
+    </svg>
+    <span class="label">Dropbox</span>
+    </div>
 
   </div>
 
 
+
+  </div>
+
+  <footer>
+    Henrik Bergström
+  </footer>
 </body>
