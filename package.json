@@ -1,7 +1,7 @@
 {
   "name": "icons",
   "version": "1.0.0",
-  "description": "",
+  "description": "Decent-ish icon set",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,12 @@
     "postcss-custom-properties": "^5.0.1",
     "postcss-easy-import": "^1.0.1",
     "run-sequence": "^1.2.2"
+  },
+  "author": {
+    "name": "Henrik Bergström",
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bergets/icon.git"
   }
 }
