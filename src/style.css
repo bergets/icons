@@ -161,8 +161,6 @@ footer{
   &:hover .icon{
     fill: var(--pink);
     transform: translateY(-0.125rem);
-    width: 48px;
-    height: 48px;
   }
 }
 .icon{
