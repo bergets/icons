@@ -97,6 +97,7 @@ footer{
   transition: all 0.3s ease-out;
   vertical-align: baseline;
   appearance: none;
+  border-radius: 2px;
 }
 
 @media (min-width: 26em) {
@@ -121,6 +122,7 @@ footer{
 .btn-primary{
   border: none;
   background-color: white;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.24);
   &:hover{
     background-color: rgba(242,242,242,1);
     box-shadow: 0px 4px 16px rgba(0,0,0,0.24);
