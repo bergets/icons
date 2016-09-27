@@ -25,6 +25,7 @@ header{
   h1{
     font-size: 5rem;
     color: var(--black);
+    font-weight: 900;
   }
   p{
     max-width: 660px;
@@ -122,7 +123,7 @@ footer{
 .btn-primary{
   border: none;
   background-color: white;
-  box-shadow: 0px 1px 1px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 1px rgba(0,0,0,.24), 0 0px 1px rgba(0,0,0,0.16) inset;
   &:hover{
     background-color: rgba(242,242,242,1);
     box-shadow: 0px 4px 16px rgba(0,0,0,0.24);
